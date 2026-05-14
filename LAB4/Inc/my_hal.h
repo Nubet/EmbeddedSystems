@@ -37,7 +37,7 @@ typedef struct {
 #define GPIOG ((GPIO_TypeDef *)0x48001800)
 
 #define RCC_BASE (0x40021000)
-#define RCC_APB1ENR1 (*(volatile uint32_t *)(0x40021000 + 0x58))
+#define RCC_APB1ENR1 (*(volatile uint32_t *)(RCC_BASE + 0x58))
 #define RCC_AHB2ENR (*(volatile uint32_t *)(RCC_BASE + 0x4C))
 
 #define EN_GPIOB BIT(1)
