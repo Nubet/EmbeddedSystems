@@ -1,0 +1,28 @@
+# Build files
+Debug/
+Release/
+cmake-build-*/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+
+# IDE files
+.idea/
+*.iml
+.settings/
+.metadata/
+*.launch
+
+# CubeMX files
+*.bak
+*.log
+.mxproject
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
